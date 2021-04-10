@@ -6,11 +6,24 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+}
+
+@media (max-width: 768px) {
+    .contentConteiner {
+        img {
+            display: none;
+        }
+    }
+
+    .hero {
+        width: 100%;
+    }
 }
 
 .hero {
     max-width: 600px;
-
+    
     > span {
         font-size: 1.5rem;
         line-height: 4.5rem;
@@ -40,7 +53,6 @@
     button {
         margin-top: 2.5rem;
     }
-
 
 }
 
